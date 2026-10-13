@@ -30,4 +30,5 @@ if(KST_SANITIZE AND NOT MSVC)
 endif()
 
 add_executable(main main.cpp)
+add_executable(reader reader.cpp)
 target_link_libraries(main PRIVATE kst_core)
